@@ -5,11 +5,10 @@ import { FormsModule } from '@angular/forms';
 import {FullCalendarModule} from 'primeng/fullcalendar';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, FullCalendarModule ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
